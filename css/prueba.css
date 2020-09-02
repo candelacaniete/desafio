@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*Servicios*/
+.semipermanente {
+  grid-area: semipermanente;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/semipermanentacion.jpg);
+  opacity: 85%;
+  background-size: cover; }
+  .semipermanente :hover {
+    width: 350px; }
+
+.esculpidas {
+  grid-area: esculpidas;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/esculpidas.jpg);
+  opacity: 85%;
+  background-size: cover; }
+  .esculpidas :hover {
+    width: 350px; }
+
+.decoracion {
+  grid-area: decoracion;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/deco.jpg);
+  background-size: cover;
+  opacity: 85%; }
+  .decoracion :hover {
+    width: 350px; }
+
+.diseños {
+  grid-area: diseños;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/diseño.jpg);
+  background-size: cover;
+  opacity: 85%; }
+  .diseños :hover {
+    width: 350px; }
+
+.kapping {
+  grid-area: kapping;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/kapping.jpg);
+  background-size: cover;
+  opacity: 85%; }
+  .kapping :hover {
+    width: 350px; }
+
+.pedicuria {
+  grid-area: pedicuria;
+  font-size: 30px;
+  color: black;
+  background-image: url(multimedia/pedicure.jpg);
+  background-size: cover;
+  opacity: 85%; }
+  .pedicuria :hover {
+    width: 350px; }
+
+/*Contacto*/
+.formulario-contacto {
+  background-image: url(multimedia/marmol-academia-1.jpg);
+  background-size: cover;
+  padding: 40px 0; }
+  .formulario-contacto h1 {
+    text-align: center; }
+
+/*Shop*/
+.shop-container-1 {
+  background-color: #41444b;
+  border-radius: 50px; }
+  .shop-container-1 button {
+    color: white;
+    font-weight: bold; }
+  .shop-container-1 button:hover {
+    background-color: #fabea7; }

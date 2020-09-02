@@ -1,0 +1,292 @@
+/*Home*/
+
+.body {
+    background-color: #F1F1F1;
+}
+
+.menu {
+    background-color: #F0B99A;
+}
+
+.article-index {
+    background-color: #CDD6D5;
+}
+
+@media (min-width:1024px) {
+    .boton-menu {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .menu-responsive {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        display: none;
+    }
+}
+
+.footer {
+    background-color: #424242;
+}
+
+.logos {
+    padding-left: 320px;
+}
+
+.logowhatsapp img {
+    width: 180px;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*Servicios*/
+
+.contenedor-servicios1 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "semipermanente esculpidas decoracion";
+}
+
+.contenedor-servicios2 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "diseños kapping pedicuria";
+}
+
+.semipermanente {
+    grid-area: semipermanente;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/semipermanentacion.jpg);
+    opacity: 85%;
+    background-size: cover;
+}
+
+.semipermanente :hover {
+    width: 350px;
+}
+
+.esculpidas {
+    grid-area: esculpidas;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/esculpidas.jpg);
+    opacity: 85%;
+    background-size: cover;
+}
+
+.esculpidas :hover {
+    width: 350px;
+}
+
+.decoracion {
+    grid-area: decoracion;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/deco.jpg);
+    background-size: cover;
+    opacity: 85%;
+}
+
+.decoracion :hover {
+    width: 350px;
+}
+
+.diseños {
+    grid-area: diseños;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/diseño.jpg);
+    background-size: cover;
+    opacity: 85%;
+}
+
+.diseños :hover {
+    width: 350px;
+}
+
+.kapping {
+    grid-area: kapping;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/kapping.jpg);
+    background-size: cover;
+    opacity: 85%;
+}
+
+.kapping :hover {
+    width: 350px;
+}
+
+.pedicuria {
+    grid-area: pedicuria;
+    font-size: 30px;
+    color: black;
+    background-image: url(multimedia/pedicure.jpg);
+    background-size: cover;
+    opacity: 85%;
+}
+
+.pedicuria :hover {
+    width: 350px;
+}
+
+
+/*Academia*/
+
+.cabecero-academia {
+    width: 100%;
+    height: 650px;
+}
+
+
+/*Contacto*/
+
+.formulario-contacto {
+    background-image: url(multimedia/marmol-academia-1.jpg);
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.formulario-contacto h1 {
+    text-align: center;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: black;
+    margin: 40px auto;
+}
+
+.contacto-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    background: burlywood;
+    padding: 20px 40px;
+    color: #ddd;
+    transition: 0, 5;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/*Shop*/
+
+.titulo-shop {
+    background-color: #fabea7;
+    width: 500px;
+    border-bottom-right-radius: 100%;
+}
+
+.overlay-shop {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 105;
+    margin-left: 0;
+    width: 75px;
+}
+
+.producto-top:hover .overlay-shop {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0, 5s;
+}
+
+.producto {
+    margin-left: 70px;
+    width: 80%;
+    height: 250px;
+}
+
+.text-shop img {
+    width: 13px;
+    height: 16px
+}
+
+.titulo-producto {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.precio-producto {
+    font-size: 16px;
+}
+
+.filtros {
+    width: 50%;
+}
+
+.boton-filtros {
+    background-color: #fabea7;
+}
+
+.shop-container {
+    height: fit-content;
+}
+
+.shop-container-1 {
+    background-color: #41444b;
+    border-radius: 50px;
+    ;
+}
+
+.shop-container-1 button {
+    color: white;
+    font-weight: bold;
+}
+
+.shop-container-1 button:hover {
+    background-color: #fabea7;
+}
+
+.shop-container-2 button:hover {
+    background-color: #fabea7;
+}
